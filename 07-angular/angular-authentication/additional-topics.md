@@ -73,7 +73,7 @@ Remember IIFEs (Immediately-Invoked Function Expressions)? In a sense, this fact
 
 Because `Alerts` is a service, a singleton, and able to be injected into controllers, `Alerts` will be our app-wide container for storing alerts.
 
-**Let's try together:** Using the `Alerts` service provided above, incorporate alerts into the Secret Recipes app. Additionally, try to add **ng-show** and **ng-hide** directives for the links in the navbar. You'll need to keep a few things in mind:
+Using the `Alerts` service provided above, incorporate alerts into the Secret Recipes app. Additionally, try to add **ng-show** and **ng-hide** directives for the links in the navbar. You'll need to keep a few things in mind:
 
 * How will an alert be added after signup, login, and logout?
 * How will the alerts be displayed? (May benefit to make an Alerts controller with a template, similar to the `NavCtrl`)
